@@ -8,12 +8,8 @@ cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 @app.route('/api', methods=['POST'])
 def process():
     data = request.json
-    # Assuming your string is in a field called 'string_input' in the JSON data
     string_input = data['string_input']
-    # Use your Python function to process the string input and obtain a result
     result = main.callfunc(string_input)
-    #result = string_input
-    # Return the result as JSON
     return jsonify({'result': result})
 
 if __name__ == '__main__':
