@@ -134,7 +134,7 @@ promluvy = """Nyní dostaneš kategorii, která je součástí velkého, již ho
 
 kategorie 8: typy promluv
 
-   \tpásmo vypravěče – promluva, kterou pronáší vypravěč ich-formou nebo er-formou
+    \tpásmo vypravěče – promluva, kterou pronáší vypravěč ich-formou nebo er-formou
     \tmonolog
         \t\tpromluva jedné postavy, která není součástí dialogu
         \t\tsouvislá a nepřerušovaná promluva jedné z postav
