@@ -30,13 +30,3 @@ def callfunc(subject):
         finish.append(temp)
 
     return finish
-
-    #print(finish[2])
-
-    #document = Document()
-    #document.add_heading("Maryša", level=2)
-
-    #for i in range(len(specific_categories)):
-    #    document.add_paragraph(finish[i])
-
-    #document.save("test.docx")
